@@ -1,0 +1,105 @@
+footer {
+    height: 100px;
+    background-color: #000;
+    border-top: 0.0625rem solid #696969;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 50px;
+    gap: 50px;
+    
+
+    img {
+        width: 100px;
+        height: 100px;
+        // padding-right: 100px;
+    }
+
+    .phone {
+        // height: 600px;
+        display: flex;
+        // justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+        button:hover {
+            background-color: #ce8ca3;
+        }
+
+        button {
+            font-size: clamp(.875rem ,.7525510204rem + .612244898vw ,1.25rem);
+            padding: 25px;
+            border-radius: 50px;
+            background-color: #f50f60;
+            border: 0;
+            color: white;
+            cursor: pointer;
+            transition: 0.2s ease;
+            // font-weight: 100;
+            // font-size: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px;
+            gap: 10px;
+            height: 35px;
+
+            img {
+                width: 30px;
+            }
+        }
+
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+
+            li {
+
+
+                img {
+                    width: 45px;
+                    height: 45px;
+                    cursor: pointer;
+                    transition: 0.2s ease;
+                }
+
+            }
+
+            li {
+
+                img:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+        }
+
+    }
+
+
+
+            li {
+                list-style-type: none;
+                font-size: 25px;
+                color: white;
+                width: fit-content;
+                cursor: pointer;
+                transition: 0.2s ease-in;
+
+            }
+
+            li:hover {
+                color: #f50f60;
+            }
+
+}
