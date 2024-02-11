@@ -87,9 +87,8 @@ main {
                 align-items: center;
                 flex-direction: column;
                 z-index: 1;
-                button:hover {
-                    background-color: #ce8ca3;
-                }
+
+
 
                 button {
                     font-size: clamp(.875rem ,.7525510204rem + .612244898vw ,1.25rem);
@@ -99,9 +98,13 @@ main {
                     border: 0;
                     color: white;
                     cursor: pointer;
-                    transition: 0.2s ease;
+                    transition: 0.3s ease;
                     // font-weight: 100;
                     // font-size: 20px;
+
+                    &:hover {
+                        background-color: rgb(235, 13, 39);
+                    }
                 }
 
                 p {
@@ -127,10 +130,10 @@ main {
                     margin-top: 20px;
 
                     li {
-
+                        
 
                         img {
-                            width: 45px;
+                            max-width: 45px;
                             cursor: pointer;
                             transition: 0.2s ease;
                         }
@@ -186,6 +189,14 @@ main {
                     width: 500px;
                 }
 
+                &:hover {
+                    transform: scale(1.03);
+                    .portfolio__item-description {
+                        opacity: 1; 
+                    }
+
+                }
+
                 .portfolio__item-description {
                     opacity: 0; 
                     transition: opacity 0.5s ease;
@@ -220,12 +231,7 @@ main {
 
                 }
 
-                &:hover {
-                    .portfolio__item-description {
-                        opacity: 1; 
-                    }
-                    transform: scale(1.02);
-                }
+
                 
             }
 

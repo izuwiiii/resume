@@ -36,7 +36,7 @@ header {
                 cursor: pointer;
                 transition: 0.2s ease-in;
 
-                a {
+                .choice, a {
                     color: white;
                     position: relative;
                     text-decoration: none;
@@ -47,7 +47,7 @@ header {
                     }
                 }
                   
-                a::before {
+                .choice::before {
                     content: '';
                     position: absolute;
                     width: 100%;
@@ -61,7 +61,7 @@ header {
                     transition: transform .3s ease-in-out;
                 }
                   
-                a:hover::before {
+                .choice:hover::before {
                     transform-origin: left;
                     transform: scaleX(1);
                 }
