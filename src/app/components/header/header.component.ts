@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LOGO } from '../../constants/config';
 
 @Component({
   selector: 'app-header',
@@ -9,8 +10,6 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  handle(event: Event) {
-    event.preventDefault()
-  }
+  logo: string = LOGO
 
 }
