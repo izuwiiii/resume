@@ -1,1 +1,1 @@
-export const ME_URL = '/assets/img/me.png'
+export const ME_URL = '/assets/images/me.png'
