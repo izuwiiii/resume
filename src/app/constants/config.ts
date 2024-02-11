@@ -1,0 +1,1 @@
+export const ME_URL = '/assets/img/me.png'
