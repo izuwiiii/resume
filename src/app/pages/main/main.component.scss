@@ -224,6 +224,11 @@ main {
                 font-size: 1.25rem;
                 cursor: pointer;
                 transition: 0.2s ease;
+                gap: 10px;
+
+                img { 
+                    width: 60px;
+                }
             }
 
             .card:hover {

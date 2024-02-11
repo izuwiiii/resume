@@ -12,15 +12,12 @@ header {
     img {
         width: 100px;
         height: 100px;
-        padding-right: 100px;
     }
 
     .nav {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 300px;
-        padding-right: 100px;
 
         ul {
             width: 800px;
@@ -38,6 +35,16 @@ header {
                 width: fit-content;
                 cursor: pointer;
                 transition: 0.2s ease-in;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    transition: 0.2s ease-in;
+                }
+
+                a:hover {
+                    color: #f50f60;
+                }
 
             }
 
