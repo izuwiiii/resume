@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { LOGO } from '../../constants/config';
 
 @Component({
   selector: 'app-header',
@@ -10,6 +9,5 @@ import { LOGO } from '../../constants/config';
 })
 export class HeaderComponent {
 
-  logo: string = LOGO
 
 }
