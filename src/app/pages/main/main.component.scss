@@ -1,10 +1,9 @@
 app-header {
     z-index: 1;
 }
-            
-
 
 .all {
+
     background-color: black;
     width: 100%;
     // height: 100vh;
@@ -363,4 +362,92 @@ app-header {
             }
         }
     }
+}
+
+// Responsive
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .all {
+
+
+
+        .contact {
+            .name {
+                h1 {
+                    font-size: 40px;
+                }
+        
+            }
+
+            .main {
+                flex-direction: column;
+                padding: 0;
+
+                .descr {
+                    height: 200px;
+                }
+
+                .phone {
+                    height: auto;
+                }
+            }
+        }
+
+        .portfolio {
+
+            .cards {
+                flex-direction: column;
+            }
+        }
+
+        .projects {
+            flex-direction: column-reverse;
+    
+            .mac {
+                padding-top: 50px;
+            }
+
+            .hire-me {
+                padding: 0;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+
+                .title {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .descr {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+
+                    p {
+                        width: 600px;
+                    }
+                }
+            }
+        }
+        
+        .skills {
+            .cards {
+                flex-direction: row;
+                width: auto;
+            }
+        }
+    }
+
+ 
+
+
+
 }

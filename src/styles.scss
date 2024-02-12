@@ -1,10 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap');
 
+body {
+    overflow-x: hidden;
+}
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
     scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 767px) { 
+    body {
+        width: 800px;
+    }
 }
