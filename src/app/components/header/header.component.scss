@@ -115,3 +115,23 @@ header {
 
     
 }
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) { 
+    header {
+        height: 100px;
+
+        .nav {
+            width: 500px;
+        }
+        img { 
+            width: 70px;
+            height: 70px;
+        }
+
+    }
+
+
+    a {
+        font-size: 20px;
+    }
+}
