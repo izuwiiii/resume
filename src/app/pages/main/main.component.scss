@@ -3,10 +3,8 @@ app-header {
 }
 
 .all {
-
     background-color: black;
     width: 100%;
-    // height: 100vh;
     color: white;
     z-index: 1;
     padding-bottom: 150px;
@@ -15,7 +13,6 @@ app-header {
 
     .contact {
         padding-top: 30px;
-        // z-index: 1;
 
         .name {
             display: flex;
@@ -56,7 +53,6 @@ app-header {
                 }
             }
 
-
             .me {
                 // width: 800px;
                 // height: 600px;
@@ -86,8 +82,6 @@ app-header {
                 align-items: center;
                 flex-direction: column;
                 z-index: 1;
-
-
 
                 button {
                     font-size: clamp(.875rem ,.7525510204rem + .612244898vw ,1.25rem);
@@ -225,12 +219,7 @@ app-header {
                         }
                     }
 
-
-
-
                 }
-
-
                 
             }
 
