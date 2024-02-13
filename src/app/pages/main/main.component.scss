@@ -381,7 +381,7 @@ app-header {
                 padding: 0;
 
                 .descr {
-                    height: 200px;
+                    height: 150px;
                     width: 300px;
                 }
 
@@ -418,10 +418,10 @@ app-header {
                 }
 
                 .card {
-                    width: 300px;
+                    max-width: 300px;
 
                     img {
-                        width: 300px;
+                        max-width: 300px;
                     }
                 }
             }
@@ -432,22 +432,22 @@ app-header {
     
             .mac {
                 padding-top: 50px;
-                width: 300px;
+                width: 350px;
 
                 img {
-                    width: 300px;
+                    width: 350px;
                     // height: 200px;
                 }
 
                 swiper-container  {
-                    width: 300px;
-                    height: 160px;
+                    width: 280px;
+                    height: 190px;
 
                     swiper-slide {
 
                         img {
-                            width: 235px;
-                            height: 160px;
+                            width: 275px;
+                            height: 190px;
                         }
                     }
                 }
@@ -473,7 +473,7 @@ app-header {
                     width: 100%;
 
                     p {
-                        width: 300px;
+                        max-width: 350px;
                     }
                 }
             }
@@ -530,6 +530,11 @@ app-header {
 
         .portfolio {
 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
             .cards {
                 flex-direction: column;
                 width: 700px;
@@ -538,6 +543,7 @@ app-header {
 
         .projects {
             flex-direction: column-reverse;
+
     
             .mac {
                 padding-top: 50px;
@@ -578,13 +584,13 @@ app-header {
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1440) {
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
     .all {
 
         .contact {
             .name {
                 h1 {
-                    font-size: 40px;
+                    font-size: 60px;
                 }
         
             }
@@ -595,17 +601,36 @@ app-header {
 
                 .descr {
                     height: 200px;
+                    width: 600px;
+                    p {
+                        font-size: clamp(1.5rem, 0.7525510204rem + 0.612244898vw, 1.25rem);
+                        width: 500px;
+                    }
                 }
 
                 .me {
                     
+                    img {
+                        width: 600px;
+                    }
+
                     span {
-                        width: 700px;
+                        width: 1000px;
+                        height: 1000px;
                     }
                 }
 
                 .phone {
                     height: auto;
+
+                    button {
+                        width: 300px;
+                        height: 100px;
+                    }
+
+                    p {
+                        font-size: 1.4rem;
+                    }
                 }
             }
         }
@@ -630,6 +655,8 @@ app-header {
                 display: flex;
                 flex-direction: column;
                 gap: 50px;
+                justify-content: center;
+                align-items: center;
 
                 .title {
                     display: flex;
@@ -642,9 +669,10 @@ app-header {
                     justify-content: center;
                     align-items: center;
                     width: 100%;
+                    width: 700px;
 
                     p {
-                        width: 600px;
+                        width: 700px;
                     }
                 }
             }
