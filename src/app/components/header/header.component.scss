@@ -92,9 +92,16 @@ header {
     header {
         height: 100px;
         text-align: center;
+        width: 100%;
 
         .nav {
-            width: 500px;
+            // width: 500px;
+
+            ul {
+                width: 300px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
         }
 
         img { 
